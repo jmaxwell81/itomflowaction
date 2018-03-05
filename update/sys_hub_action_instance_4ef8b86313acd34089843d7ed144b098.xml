@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Run Probe">3968706313acd34089843d7ed144b05e</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Run Probe">3968706313acd34089843d7ed144b05e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="test">a9f8786313acd34089843d7ed144b0a5</flow>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 20:04:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ef8b86313acd34089843d7ed144b098</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITOM Spoke" source="x_snc_itom_spoke">9beaa427136cd34089843d7ed144b0fd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITOM Spoke">9beaa427136cd34089843d7ed144b0fd</sys_scope>
+        <sys_update_name>sys_hub_action_instance_4ef8b86313acd34089843d7ed144b098</sys_update_name>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 20:04:02</sys_updated_on>
+        <ui_id>3de95b71-117a-4d6e-a1a7-6aa40bd86173</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4ef8b86313acd34089843d7ed144b098"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4ef8b86313acd34089843d7ed144b098</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 20:04:02</sys_created_on>
+        <sys_id>42f8b86313acd34089843d7ed144b09c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 20:04:02</sys_updated_on>
+        <value>a7227491135c130089843d7ed144b0cd</value>
+        <variable display_value="">8a68706313acd34089843d7ed144b07b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4ef8b86313acd34089843d7ed144b098</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 20:04:02</sys_created_on>
+        <sys_id>8ef8b86313acd34089843d7ed144b09b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 20:04:02</sys_updated_on>
+        <value>c7623b68a9fe1561006b8a2ad5a90231</value>
+        <variable display_value="">9a68706313acd34089843d7ed144b088</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4ef8b86313acd34089843d7ed144b098</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 20:04:02</sys_created_on>
+        <sys_id>caf8b86313acd34089843d7ed144b09b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 20:04:02</sys_updated_on>
+        <value>d21e674e13b2070089843d7ed144b0ad</value>
+        <variable display_value="">3568706313acd34089843d7ed144b061</variable>
+    </sys_variable_value>
+</record_update>

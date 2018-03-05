@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"3de95b71-117a-4d6e-a1a7-6aa40bd86173.output","label":"10➛output","type":"string","base_type":"string"},{"name":"3de95b71-117a-4d6e-a1a7-6aa40bd86173.payload","label":"10➛payload","reference_display":"payload"},{"name":"446b8d4c-4285-4dd5-a159-bfbce4fb22df.output","label":"4➛output","reference_display":"output"},{"name":"446b8d4c-4285-4dd5-a159-bfbce4fb22df.payload","label":"4➛payload","reference_display":"payload"},{"name":"44a0ca3a-fbb7-4b3e-af61-5da29ee02d40.payload","label":"1➛payload","reference_display":"payload"},{"name":"44a0ca3a-fbb7-4b3e-af61-5da29ee02d40.output","label":"1➛output","reference_display":"output"},{"name":"3ab926c1-f011-458f-9a77-ff166f0f7467.payload","label":"7➛payload","reference_display":"payload"},{"name":"3ab926c1-f011-458f-9a77-ff166f0f7467.output","label":"7➛output","reference_display":"output"}]</label_cache>
+        <name>test</name>
+        <parent_flow display_value="test">beac20a7136cd34089843d7ed144b06d</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 20:08:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee1a30e313acd34089843d7ed144b0af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ITOM Spoke" source="x_snc_itom_spoke">9beaa427136cd34089843d7ed144b0fd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITOM Spoke">9beaa427136cd34089843d7ed144b0fd</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_ee1a30e313acd34089843d7ed144b0af</sys_update_name>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 20:08:59</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

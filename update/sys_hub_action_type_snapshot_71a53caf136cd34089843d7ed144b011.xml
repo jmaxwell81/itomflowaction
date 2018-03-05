@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation>run a command on a mid server</annotation>
+        <category/>
+        <description>run a command on a mid server</description>
+        <label_cache>[{"name":"{{action.ah_mid_server}}","label":"action➛mid_server","type":"action","ref":"ecc_agent"},{"name":"{{action.ah_command}}","label":"action➛command","type":"action","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].p}}","label":"step➛Script step➛p","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].pa}}","label":"step➛Script step➛pa","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].pay}}","label":"step➛Script step➛pay","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].payl}}","label":"step➛Script step➛payl","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].paylo}}","label":"step➛Script step➛paylo","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].payloa}}","label":"step➛Script step➛payloa","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].payload}}","label":"step➛Script step➛payload","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].o}}","label":"step➛Script step➛o","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].ou}}","label":"step➛Script step➛ou","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].out}}","label":"step➛Script step➛out","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].outp}}","label":"step➛Script step➛outp","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].outpu}}","label":"step➛Script step➛outpu","type":"step","ref":""},{"name":"{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].output}}","label":"step➛Script step➛output","type":"step","ref":""}]</label_cache>
+        <name>MID Command</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="MID Command">54d37c2f136cd34089843d7ed144b055</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 19:49:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71a53caf136cd34089843d7ed144b011</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MID Command</sys_name>
+        <sys_package display_value="ITOM Spoke" source="x_snc_itom_spoke">9beaa427136cd34089843d7ed144b0fd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITOM Spoke">9beaa427136cd34089843d7ed144b0fd</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_71a53caf136cd34089843d7ed144b011</sys_update_name>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 19:49:35</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=71a53caf136cd34089843d7ed144b011"/>
+    <sys_element_mapping action="delete_multiple" query="id=71a53caf136cd34089843d7ed144b011"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>71a53caf136cd34089843d7ed144b011</id>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 19:49:35</sys_created_on>
+        <sys_id>5aa53caf136cd34089843d7ed144b070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 19:49:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_71a53caf136cd34089843d7ed144b011</table>
+        <value>{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>71a53caf136cd34089843d7ed144b011</id>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-03-05 19:49:35</sys_created_on>
+        <sys_id>1ea53caf136cd34089843d7ed144b070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-03-05 19:49:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_71a53caf136cd34089843d7ed144b011</table>
+        <value>{{step[8826caf1-eccc-4b97-8fb3-a22aa4fa049f].payload}}</value>
+    </sys_element_mapping>
+</record_update>
